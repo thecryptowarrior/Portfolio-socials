@@ -15,9 +15,12 @@
     background-size: cover;
 }
 .main{
-    background-color: rgb(179, 156, 156);
+    background-color: rgba(179, 156, 156, 0.699);
     height: 570px;
+    backdrop-filter: blur(5px);
+    
     width: 400px;
+    
     border-radius: 25px;
     padding: 30px;
     display: flex;
@@ -62,4 +65,8 @@
 .profile >p{
     color: rgb(241, 237, 19);
     font-weight: 400;
+    font-size: 20px;
+}
+.profile >h2{
+    font-size: 26px;
 }
