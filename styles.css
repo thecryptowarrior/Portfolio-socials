@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    gap:3px;
+    
+}
+.links > a{
+    text-align: center;
+    background-color: rgb(204, 194, 194);
+    text-decoration: none;
+    color: rgb(240, 143, 8);
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 10px 50px;
+}
